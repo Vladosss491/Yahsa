@@ -19,9 +19,22 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(YashaMod.MOD_ID);
 
+
+
+
+
+
     public static final DeferredBlock<Block> PACKED_ICE_BRICKS = registerBlock("packed_ice_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.5f).sound(SoundType.GLASS).mapColor(MapColor.ICE).noOcclusion()));
+
+    public static final DeferredBlock<Block> SNOW_BRICKS = registerBlock("snow_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.5f).sound(SoundType.SNOW).mapColor(MapColor.SNOW)));
+
+
+
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -1,4 +1,7 @@
 {
   "item.yasha.stone_heart": "Каменное сердце",
-  "block.yasha.packed_ice_bricks": "Упакованые ледяные кирпичи"
+
+
+  "block.yasha.packed_ice_bricks": "Упакованые ледяные кирпичи",
+  "block.yasha.snow_bricks": "Снежные кирпичи"
 }

@@ -2,6 +2,7 @@ package net.vladosss491.yasha;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.vladosss491.yasha.block.ModBlocks;
+import net.vladosss491.yasha.item.ModCreativeModeTabs;
 import net.vladosss491.yasha.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,8 @@ public class YashaMod
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -49,12 +52,7 @@ public class YashaMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.STONE_HEART);
-        }
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.PACKED_ICE_BRICKS);
-        }
+
     }
 
     @SubscribeEvent

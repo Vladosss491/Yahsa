@@ -1,4 +1,9 @@
 {
   "item.yasha.stone_heart": "Stone heart",
-  "block.yasha.packed_ice_bricks": "Packed ice bricks"
+
+
+  "block.yasha.packed_ice_bricks": "Packed ice bricks",
+  "block.yasha.snow_bricks": "Snow bricks",
+
+  "creativemodtab.yasha.yasha_items": "Yasha Mod"
 }
