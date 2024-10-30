@@ -22,8 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SNOW_BRICKS);
                         output.accept(ModBlocks.PACKED_ICE_BRICKS);
                         output.accept(ModItems.STONE_HEART);
-                        output.accept(ModBlocks.TUNGSTEN);
-                        output.accept(ModBlocks.DEEPSLATE_TUNGSTEN);
+                        output.accept(ModBlocks.PLATINUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE);
                     })
                     .build());
     public static void register(IEventBus eventBus) {

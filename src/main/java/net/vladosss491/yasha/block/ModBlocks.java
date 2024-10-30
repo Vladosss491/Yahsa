@@ -32,11 +32,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.5F).sound(SoundType.SNOW).mapColor(MapColor.SNOW)));
 
-    public static final DeferredBlock<Block> TUNGSTEN = registerBlock("tungsten",
+    public static final DeferredBlock<Block> PLATINUM_ORE = registerBlock("platinum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1.5F,6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
 
-    public static final DeferredBlock<Block> DEEPSLATE_TUNGSTEN = registerBlock("deepslate_tungsten",
+    public static final DeferredBlock<Block> DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3F, 6F).sound(SoundType.DEEPSLATE).mapColor(MapColor.DEEPSLATE).requiresCorrectToolForDrops()));
 
