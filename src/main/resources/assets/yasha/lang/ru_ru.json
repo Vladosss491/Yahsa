@@ -1,10 +1,10 @@
 {
-  "item.yasha.stone_heart": "Каменное сердце",
+  "item.yasha.platinum": "Платина",
 
 
-  "block.yasha.packed_ice_bricks": "Упакованые ледяные кирпичи",
+  "block.yasha.packed_ice_bricks": "Плотные ледяные кирпичи",
   "block.yasha.snow_bricks": "Снежные кирпичи",
 
-  "block.yasha.tungsten": "Вольфрам",
-  "block.yasha.deepslate_tungsten": "Глубокосланцевый вольфарм"
+  "block.yasha.platinum_ore": "Платиновая Руда",
+  "block.yasha.deepslate_platinum_ore": "Глубокосланцевая Платиновая Руда"
 }

@@ -16,14 +16,14 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, YashaMod.MOD_ID);
 
     public static final Supplier<CreativeModeTab> YASHA_MOD_TAB = CREATIVE_MODE_TAB.register("yasha_mod",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SNOW_BRICKS.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINUM.get()))
                     .title(Component.translatable("creativemodtab.yasha.yasha_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.PLATINUM);
+                        output.accept(ModBlocks.PLATINUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE);
                         output.accept(ModBlocks.SNOW_BRICKS);
                         output.accept(ModBlocks.PACKED_ICE_BRICKS);
-                        output.accept(ModItems.STONE_HEART);
-                        output.accept(ModBlocks.TUNGSTEN);
-                        output.accept(ModBlocks.DEEPSLATE_TUNGSTEN);
                     })
                     .build());
     public static void register(IEventBus eventBus) {

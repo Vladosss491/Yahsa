@@ -1,11 +1,11 @@
 {
-  "item.yasha.stone_heart": "Stone heart",
+  "item.yasha.platinum": "Platinum",
 
 
-  "block.yasha.packed_ice_bricks": "Packed ice bricks",
-  "block.yasha.snow_bricks": "Snow bricks",
-  "block.yasha.tungsten": "Tungsten",
-  "block.yasha.deepslate_tungsten": "Deepslate tungsten",
+  "block.yasha.packed_ice_bricks": "Packed Ice Bricks",
+  "block.yasha.snow_bricks": "Snow Bricks",
+  "block.yasha.platinum_ore": "Platinum Ore",
+  "block.yasha.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
   "creativemodtab.yasha.yasha_items": "Yasha Mod"
 }

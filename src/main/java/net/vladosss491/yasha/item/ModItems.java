@@ -9,7 +9,7 @@ import net.vladosss491.yasha.YashaMod;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(YashaMod.MOD_ID);
 
-    public static final DeferredItem<Item> STONE_HEART = ITEMS.register("stone_heart",
+    public static final DeferredItem<Item> PLATINUM = ITEMS.register("platinum",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

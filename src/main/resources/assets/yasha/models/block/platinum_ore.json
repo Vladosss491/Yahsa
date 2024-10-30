@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "yasha:block/tungsten"
+    "all": "yasha:block/platinum_ore"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "yasha:item/stone_heart"
+    "layer0": "yasha:item/platinum"
   }
 }
