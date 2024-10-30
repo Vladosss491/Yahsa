@@ -3,5 +3,8 @@
 
 
   "block.yasha.packed_ice_bricks": "Упакованые ледяные кирпичи",
-  "block.yasha.snow_bricks": "Снежные кирпичи"
+  "block.yasha.snow_bricks": "Снежные кирпичи",
+
+  "block.yasha.tungsten": "Вольфрам",
+  "block.yasha.deepslate_tungsten": "Глубокосланцевый вольфарм"
 }

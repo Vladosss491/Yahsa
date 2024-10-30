@@ -26,12 +26,19 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> PACKED_ICE_BRICKS = registerBlock("packed_ice_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(0.5f).sound(SoundType.GLASS).mapColor(MapColor.ICE).noOcclusion()));
+                    .strength(0.5F).sound(SoundType.GLASS).mapColor(MapColor.ICE).noOcclusion()));
 
     public static final DeferredBlock<Block> SNOW_BRICKS = registerBlock("snow_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(0.5f).sound(SoundType.SNOW).mapColor(MapColor.SNOW)));
+                    .strength(0.5F).sound(SoundType.SNOW).mapColor(MapColor.SNOW)));
 
+    public static final DeferredBlock<Block> TUNGSTEN = registerBlock("tungsten",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F,6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> DEEPSLATE_TUNGSTEN = registerBlock("deepslate_tungsten",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3F, 6F).sound(SoundType.DEEPSLATE).mapColor(MapColor.DEEPSLATE).requiresCorrectToolForDrops()));
 
 
 
